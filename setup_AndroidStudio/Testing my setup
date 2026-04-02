@@ -11,3 +11,5 @@ adb install dvba.apk
 adb shell settings get global http_proxy 
 adb shell settings put global http_proxy 192.168.88.249:8080
 
+# Don't forget to change proxy to all interfaces on BURP
+
